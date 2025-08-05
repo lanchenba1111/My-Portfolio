@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="icon"
+    type="image"
+    href="https://plus.unsplash.com/premium_photo-1668902221232-5908bec128f9?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    />
+    <style>
+body{
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url(https://plus.unsplash.com/premium_photo-1661877737564-3dfd7282efcb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nfGVufDB8fDB8fHww);
+  background-position: center;
+  background-attachment: fixed;   
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+border-radius: 10px;
+   float: right;
+  border: 5px double white;
+  box-shadow: 5px 5px 15px gray;
+  position: absolute;
+  top: 100px;
+  right: 5px;
+  object-fit: cover;
+  width: 200px;
+}
+nav{
+    background-color: black;
+      padding: 5px;
+      bottom: 5px;
+}
+section{
+margin-top: 100px;
+
+}
+.navbar{
+    display: flex;
+    justify-content: flex-start;
+   padding: 20px 30px ;
+   
+  
+   
+}
+.navbar ul{
+list-style-type: none;
+display: flex;
+
+}
+.navbar li{
+margin-left: 10px;
+
+
+}
+ 
+
+.navbar a{
+text-decoration: none;
+color: red ;
+padding-left: 20px;
+}
+.navbar a:hover{
+  background-color: blue;
+  color: white;
+ 
+}
+button{
+padding: 10px;
+border: none;
+background-color: forestgreen;
+border-radius: 4px;
+margin-left: 10px;
+transition: 0.03s;
+color: black;
+box-shadow: 5px 5px 15px lightgrey;
+
+}
+.achievement{
+background-color: aqua;
+color: black;
+}
+button a{
+  text-decoration: none;
+  
+}
+
+h1{
+  margin-left: 5%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+text-shadow: 2px 2px 5px grey;
+}
+button:hover{
+background-color: blanchedalmond;
+color: teal;
+transform: scale(1.3);
+cursor: pointer;
+}
+
+div p{
+  color: white;
+  font-size: small;
+  box-shadow: 5px 5px 15px #555;
+  margin-top: 20px;
+  position: absolute;
+  padding: 10px;
+ width: 75%;
+border: 1px solid gray;
+left: 12px;
+right: 4px;
+border-radius: 5px;
+}
+.highlight{
+  background-color: yellow;
+  color: white;
+  border: none;
+  margin-left: 10px;
+  padding: 0;
+  border-radius: 6px;
+  top: 5px;
+}
+footer{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: small;
+  color: aliceblue;
+}
+div{
+width: 80%;
+border-radius: 5px;
+}
+@media(max-width:414px){
+section div{
+  flex-direction: column;
+  font-size: smaller;
+  
+}
+img{
+  height: 100px;
+  width: 100px;
+  margin-right: 10px;
+}
+nav{
+margin-right: 5px;
+font-size: smaller;
+
+}
+}
+    </style>
+</head>
+<body><header>
+    <nav >
+<div class="navbar">
+<ul >
+  <li ><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFF55"><path d="M480-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM160-160v-112q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440q66 0 130 15.5T736-378q29 15 46.5 43.5T800-272v112H160Zm80-80h480v-32q0-11-5.5-20T700-306q-54-27-109-40.5T480-360q-56 0-111 13.5T260-306q-9 5-14.5 14t-5.5 20v32Zm240-320q33 0 56.5-23.5T560-640q0-33-23.5-56.5T480-720q-33 0-56.5 23.5T400-640q0 33 23.5 56.5T480-560Zm0-80Zm0 400Z"/></svg></li>
+
+ <li class="margin" style="color: beige;  font-weight: bold; border-bottom: 2px double orangered; ">My Portfolio!!</li>
+    <li><a href="#One">Home</a></li>
+    <li><a href="/Portfolio.html/Services.html">Services</a></li>
+    <li><a href="/Portfolio.html/Services.html">About</a></li>
+   </ul>
+<ul>
+ 
+</ul>
+</div>
+    </nav>
+    </header>
+  <section>
+    <img src="photo.jpg"  width="200px" height="200px"/>
+    <h1 id="One" style="margin-left: 15px;" >Hello,</h1>
+      <br/>
+          <br/>
+      
+   <h2 style="margin-left: 5px;">I'm Lanchenba Meitei</h4>
+     <br/>
+   <h1> Fullstack Developer</h1>
+   
+   <br/>
+    <br/>
+    <button  type="submit"><a href="#Four">Get a project?</a></button>
+    <button class="achievement" type="button"><a href="#Five">My Achievements</a></button>
+ <br/>
+    <div style="height: 210px; background-color: black; margin-top: 10px;">
+<h2  style="color: aliceblue; margin-bottom: 5px; text-shadow: 2px 2px 5px #444;"><span class="highlight">About Me</span></h2>
+<P>I'm 17 years old boy  and  I am working in this field for 3 months as a Frontend
+ Developer. </P><hr/> </div>   
+</div>
+    </section>
+<footer><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFF55"><path d="M400-320h160q17 0 28.5-11.5T600-360v-80h-80v40h-80v-160h80v40h80v-80q0-17-11.5-28.5T560-640H400q-17 0-28.5 11.5T360-600v240q0 17 11.5 28.5T400-320Zm80 240q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/></svg>All rights are reserved.</footer>
+</body>
+</html>
